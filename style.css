@@ -301,6 +301,7 @@ input:focus::-webkit-input-placeholder {
     width: 90%;
     padding-bottom: 19px;
     animation: animation90 3s infinite forwards;
+    animation-timing-function: ease-in-out;
 }
 
 .skills .container .skills-in-circle .skill-circle .border-80 {
@@ -308,6 +309,7 @@ input:focus::-webkit-input-placeholder {
     width: 90%;
     padding-bottom: 19px;
     animation: animation80 3s infinite forwards;
+    animation-timing-function: ease-in-out;
 }
 
 .skills .container .skills-in-circle .skill-circle .border-70 {
@@ -315,61 +317,37 @@ input:focus::-webkit-input-placeholder {
     width: 90%;
     padding-bottom: 19px;
     animation: animation70 3s infinite forwards;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes animation70 {
-    0% {
-        border-image: linear-gradient(to right, #f38b0372 20%, whitesmoke 30%) 5;
+    from {
+        border-image: linear-gradient(to right, #f38b0372 0%, whitesmoke 30%) 5;
     }
 
-    20% {
-        border-image: linear-gradient(to right, #f88e0392 40%, whitesmoke 30%) 5;
-    }
-
-    40% {
-        border-image: linear-gradient(to right, #ec8704c5 60%, whitesmoke 30%) 5;
-    }
-
-    100% {
+    to {
         border-image: linear-gradient(to right, #FF9000 70%, whitesmoke 30%) 5;
     }
-
 }
 
 @keyframes animation80 {
-    0% {
-        border-image: linear-gradient(to right, #f38b0372 20%, whitesmoke 20%) 5;
+    from {
+        border-image: linear-gradient(to right, #f38b0372 0%, whitesmoke 30%) 5;
     }
 
-    20% {
-        border-image: linear-gradient(to right, #f88e0392 40%, whitesmoke 20%) 5;
-    }
-
-    40% {
-        border-image: linear-gradient(to right, #ec8704c5 60%, whitesmoke 20%) 5;
-    }
-
-    100% {
-        border-image: linear-gradient(to right, #FF9000 80%, whitesmoke 20%) 5;
+    to {
+        border-image: linear-gradient(to right, #FF9000 80%, whitesmoke 30%) 5;
     }
 
 }
 
 @keyframes animation90 {
-    0% {
-        border-image: linear-gradient(to right, #f38b0372 20%, whitesmoke 10%) 5;
+    from {
+        border-image: linear-gradient(to right, #f38b0372 0%, whitesmoke 30%) 5;
     }
 
-    20% {
-        border-image: linear-gradient(to right, #f88e0392 40%, whitesmoke 10%) 5;
-    }
-
-    40% {
-        border-image: linear-gradient(to right, #ec8704c5 70%, whitesmoke 10%) 5;
-    }
-
-    100% {
-        border-image: linear-gradient(to right, #FF9000 90%, whitesmoke 10%) 5;
+    to {
+        border-image: linear-gradient(to right, #FF9000 90%, whitesmoke 30%) 5;
     }
 
 }
